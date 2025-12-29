@@ -1,0 +1,35 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run lint)",
+      "Bash(npm run test:*)",
+      "Read(~/.zshrc)",
+      "Bash(mkdir:*)",
+      "Skill(planning)",
+      "Bash(cat:*)",
+      "Bash(xcodebuild:*)",
+      "Bash(swift -typecheck:*)",
+      "Bash(git add:*)",
+      "Bash(awk:*)",
+      "Bash(pod --version:*)",
+      "Bash(pod install:*)",
+      "Bash(pod repo update:*)",
+      "Bash(pod search:*)",
+      "Bash(ls:*)",
+      "Bash(pod deintegrate:*)",
+      "mcp__human-mcp__eyes_analyze",
+      "Bash(pod deintegrate:*)",
+      "Bash(cp:*)"
+    ],
+    "deny": [],
+    "defaultMode": "bypassPermissions"
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "figma-remote-mcp",
+    "human-mcp",
+    "framelink-figma",
+    "github",
+    "mcp-atlassian"
+  ]
+}
